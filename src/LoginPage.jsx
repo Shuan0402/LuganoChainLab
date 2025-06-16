@@ -22,10 +22,11 @@ export default function LoginPage() {
             const address = await signer.getAddress();
             const network = await provider.getNetwork();
             const did = getEthrDID(address, network.chainId);
-            setAppState({
+            setAppState(prev => ({
+                ...prev,
                 account: address,
                 did: did
-            });
+            }));
         } catch (err) {
             console.error('連接失敗:', err);
         }

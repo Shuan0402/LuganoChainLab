@@ -5,7 +5,9 @@ const AppContext = createContext();
 export const AppContextProvider = ({ children }) => {
     const [appState, setAppState] = useState({
         account: null,
-        did: null
+        did: null,
+        vc: null,
+        ipfsUrl: null
     });
 
     return (
