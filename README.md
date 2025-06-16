@@ -90,9 +90,9 @@ LuganoChainLab/
 └── ...其他模組
 ```
 
-🚀 快速開始
-# 安裝依賴
+# 🚀 快速開始
+## 安裝依賴
 npm install
 
-# 啟動開發伺服器
+## 啟動開發伺服器
 npm start
