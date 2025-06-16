@@ -5,7 +5,7 @@ import IssueVC from './IssueVC';
 import VerifyVC from './VerifyVC';
 import { uploadToPinata } from './pinataUtils';
 import { QRCodeSVG } from 'qrcode.react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import VerifyVCFromQR from './VerifyVCFromQR';
 
 function App() {
