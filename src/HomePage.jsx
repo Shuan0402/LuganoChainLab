@@ -36,7 +36,9 @@ export default function HomePage() {
                             <strong>DID：</strong> {did}
                         </Grid>
                     </Grid>
+                    
                     <Divider sx={{ margin: "15px 0", borderWidth: "1.5px", borderColor: "#b0b0b0" }} />
+
                     {
                         !role ?
                             <Stack direction='row' spacing={1}>
@@ -55,6 +57,8 @@ export default function HomePage() {
                     {role === 'student' && (
                         <p>你目前為學生身份，無法簽發證書。</p>
                     )}
+
+                    <Divider sx={{ margin: "15px 0", borderWidth: "1.5px", borderColor: "#b0b0b0" }} />
 
                     <VerifyVC />
                 </Container>
