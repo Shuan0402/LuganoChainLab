@@ -54,7 +54,7 @@ export default function LoginPage() {
                             maxWidth: "100%",
                             objectFit: "contain"
                         }}
-                        src="image/homepage.png" // 請替換為你的圖片路徑或 URL
+                        src="/homepage.png" // 請替換為你的圖片路徑或 URL
                         alt="封面圖片"
                     />
                 </Grid>
