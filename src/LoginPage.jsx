@@ -46,6 +46,18 @@ export default function LoginPage() {
                         LuganoChainLab - VC Demo
                     </Typography>
                 </Grid>
+                <Grid item xs={12} display="flex" justifyContent="center">
+                    <Box
+                        component="img"
+                        sx={{
+                            maxHeight: 300,
+                            maxWidth: "100%",
+                            objectFit: "contain"
+                        }}
+                        src="image/homepage.png" // 請替換為你的圖片路徑或 URL
+                        alt="封面圖片"
+                    />
+                </Grid>
                 <Grid item size={12} height='10vh'></Grid>
                 <Grid item size={12} justifyContent='center' display='flex'>
                     <Button
