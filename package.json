@@ -1,5 +1,5 @@
 {
-  "name": "lugano-chainlab",
+  "name": "on_chain_ed",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "homepage": "https://shuan0402.github.io/LuganoChainLab",
+  "homepage": "https://shuan0402.github.io/OnChainED",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

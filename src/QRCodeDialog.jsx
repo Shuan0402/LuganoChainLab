@@ -29,7 +29,7 @@ export default function QRCodeModal(props) {
             <DialogContent dividers>
                 <Stack>
                     <QRCodeSVG
-                        value={`${window.location.origin}/LuganoChainLab#verify?vc=${encodeURIComponent(ipfsUrl)}`}
+                        value={`${window.location.origin}/OnChainED#verify?vc=${encodeURIComponent(ipfsUrl)}`}
                         size={200}
                         level="H"
                         includeMargin={true}
@@ -44,7 +44,7 @@ export default function QRCodeModal(props) {
                     <Button
                         variant='outlined'
                         style={{ marginTop: '10px' }}
-                        onClick={() => window.open(`${window.location.origin}/LuganoChainLab#verify?vc=${encodeURIComponent(ipfsUrl)}`, '_blank')}
+                        onClick={() => window.open(`${window.location.origin}/OnChainED#verify?vc=${encodeURIComponent(ipfsUrl)}`, '_blank')}
                     >
                         <LinkIcon sx={{ marginRight: "5px" }} />開啟驗證頁面
                     </Button>

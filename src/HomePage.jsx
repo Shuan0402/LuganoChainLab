@@ -42,7 +42,7 @@ export default function HomePage() {
                 <Grid container spacing={2} direction="column" alignItems='center' justifyContent='center' sx={{ width: "100%" }}>
                     <Grid item xs={12}>
                         <Typography variant='h4' gutterBottom sx={{ textAlign: 'center' }}>
-                            LuganoChainLab - VC Demo
+                            OnChainED - VC Demo
                         </Typography>
                     </Grid>
                     <Grid item xs={12}>

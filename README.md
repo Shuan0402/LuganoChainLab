@@ -80,7 +80,7 @@ OnChainED 是一套基於區塊鏈的學習認證與教育記錄平台，致力�
 ## 📂 專案結構（摘要）
 
 ```bash
-LuganoChainLab/
+OnChainED/
 ├── App.jsx                 # React 主應用
 ├── IssueVC.jsx             # 教師端 VC 簽發介面
 ├── VerifyVC.jsx            # 學生端 VC 驗證介面
