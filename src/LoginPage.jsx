@@ -49,7 +49,7 @@ export default function LoginPage() {
             {/* 標題 */}
             <Grid item>
             <Typography variant="h4" component="h1" align="center">
-                LuganoChainLab - VC Demo
+                OnChainED - VC Demo
             </Typography>
             </Grid>
 
@@ -57,7 +57,7 @@ export default function LoginPage() {
             <Grid item>
             <Box
                 component="img"
-                src={`/LuganoChainLab/homepage.png`}
+                src={`/OnChainED/homepage.png`}
                 alt="封面圖片"
                 sx={{
                 maxHeight: 300,
