@@ -1,6 +1,6 @@
-# LuganoChainLab 🔗🎓
+# OnChainED 🔗🎓
 
-LuganoChainLab 是一套基於區塊鏈的學習認證與教育記錄平台，致力於為參與 **Plan B Summer School** 及未來歐洲教育機構的學生，提供 **可驗證、可持久、具國際認可** 的學習證書與技能履歷。
+OnChainED 是一套基於區塊鏈的學習認證與教育記錄平台，致力於為參與 **Plan B Summer School** 及未來歐洲教育機構的學生，提供 **可驗證、可持久、具國際認可** 的學習證書與技能履歷。
 
 > 🔐 核心理念：透過 DID + VC 技術，打造去中心化的數位學習證明。
 
