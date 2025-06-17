@@ -17,7 +17,4 @@ export const AppContextProvider = ({ children }) => {
     )
 }
 
-export const useAppState = () => {
-    const context = useContext(AppContext);
-    return context;
-}
+export const useAppState = () => useContext(AppContext);
