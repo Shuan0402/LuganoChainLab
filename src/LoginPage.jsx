@@ -1,6 +1,6 @@
 import { Web3Provider } from '@ethersproject/providers';
 import { getEthrDID } from './didUtils';
-import { Button, Container, Grid, Typography } from '@mui/material';
+import { Box, Button, Container, Grid, Typography } from '@mui/material';
 import { useEffect } from 'react';
 import { useAppState } from './AppContext';
 import { useNavigate } from 'react-router-dom';
@@ -41,31 +41,27 @@ export default function LoginPage() {
     return (
         <Container maxWidth="xl" sx={{ marginTop: "15px" }}>
             <Grid container spacing={2} alignItems='center' justifyContent='center' sx={{ width: "100%" }}>
-                <Grid item size={12}>
+                <Grid item xs={12}>
                     <Typography variant='h4' gutterBottom sx={{ textAlign: 'center' }}>
                         LuganoChainLab - VC Demo
                     </Typography>
                 </Grid>
-                <Grid item xs={12} display="flex" justifyContent="center">
+                <Grid span={12} display="flex" flexDirection="column" alignItems="center">
                     <Box
                         component="img"
-                        sx={{
-                            maxHeight: 300,
-                            maxWidth: "100%",
-                            objectFit: "contain"
-                        }}
-                        src="/homepage.png" // 請替換為你的圖片路徑或 URL
+                        src={`/LuganoChainLab/homepage.png`}
                         alt="封面圖片"
+                        sx={{
+                        maxHeight: 300,
+                        objectFit: "contain",
+                        marginBottom: 2
+                        }}
                     />
-                </Grid>
-                <Grid item size={12} height='10vh'></Grid>
-                <Grid item size={12} justifyContent='center' display='flex'>
-                    <Button
-                        variant='contained'
-                        onClick={connectWallet}>
+                    <Button variant="contained" onClick={connectWallet}>
                         使用 MetaMask 登入
                     </Button>
                 </Grid>
+
             </Grid>
         </Container>
     );
