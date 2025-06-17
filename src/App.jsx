@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import VerifyVCFromQR from './VerifyVCFromQR';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
@@ -7,11 +7,11 @@ import { AppContextProvider } from './AppContext';
 function App() {
     return (
         <AppContextProvider>
-            <Router basename='/LuganoChainLab'>
+            <Router>
                 <Routes>
-                    <Route path="/login" element={<LoginPage />} />
-                    <Route path="/verify" element={<VerifyVCFromQR />} />
-                    <Route path="/" element={<HomePage />} />
+                    <Route path="login" element={<LoginPage />} />
+                    <Route path="verify" element={<VerifyVCFromQR />} />
+                    <Route path="" element={<HomePage />} />
                 </Routes>
             </Router>
         </AppContextProvider>

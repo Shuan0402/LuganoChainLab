@@ -15,7 +15,7 @@ export default function HomePage() {
 
     useEffect(() => {
         if (!account) {
-            navigate('/login', { replace: true });
+            navigate('login', { replace: true });
         }
     }, []);
 
